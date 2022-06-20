@@ -44,11 +44,11 @@ if(maxDedutivel>dedutivel){
 
 
 
-  result.innerHTML = "Imposto salario = R$ "+impostoSalario.toFixed(2);
-  result1.innerHTML = "imposto prestacao = R$ "+impostoPrestacao.toFixed(2);
+  result.innerHTML = "Imposto salário  = R$ "+impostoSalario.toFixed(2);
+  result1.innerHTML = "Imposto prestação = R$ "+impostoPrestacao.toFixed(2);
   result3.innerHTML="Gasto de capital = R$ "+impostoCapital.toFixed(2);
-  result4.innerHTML="Gastos dedutiveis = R$ "+dedutivel.toFixed(2);
+  result4.innerHTML="Gastos dedutível = R$ "+dedutivel.toFixed(2);
   result2.innerHTML = "Total bruto = R$ "+totalBruto.toFixed(2);
-  result5.innerHTML="Maximo dedutivel = R$ "+maxDedutivel.toFixed(2);
+  result5.innerHTML="Máximo dedutível = R$ "+maxDedutivel.toFixed(2);
   result6.innerHTML="Imposto devido = R$ "+abater.toFixed(2);
 }
